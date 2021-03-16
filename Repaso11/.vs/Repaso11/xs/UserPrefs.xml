@@ -1,15 +1,16 @@
 ﻿<Properties StartupConfiguration="{94500914-E290-45E3-BB78-2C539706D506}|Default">
   <MonoDevelop.Ide.ItemProperties.Repaso11 FirstBuild="True" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Repaso11/Program.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Repaso11/LeerArchivo.cs">
     <Files>
-      <File FileName="Repaso11/Program.cs" Line="33" Column="22" />
+      <File FileName="Repaso11/Program.cs" Line="54" Column="51" />
+      <File FileName="Repaso11/LeerArchivo.cs" Line="10" Column="22" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Repaso11" expanded="True">
             <Node name="Repaso11" expanded="True">
-              <Node name="Packages" selected="True" />
+              <Node name="LeerArchivo.cs" selected="True" />
             </Node>
           </Node>
         </State>

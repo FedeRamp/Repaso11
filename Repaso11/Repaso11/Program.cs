@@ -10,9 +10,9 @@ namespace Repaso11
             string ingreso = "";
             do
             {
-                Console.WriteLine("Ingresar una palabra");
+                Console.WriteLine("Ingresar edad, nombre y apellido (en cualquier orden)");
                 ingreso = Console.ReadLine();
-                if (ingreso == "") Console.WriteLine("Algo, no vacío");
+                if (ingreso == "") Console.WriteLine("Algo, no vacio");
             } while (ingreso == "");
 
             string[] palabras = ingreso.Split(' ');
@@ -21,7 +21,7 @@ namespace Repaso11
             int indexApellido = -1;
             if (palabras.Length == 3)
             {
-                for(int i = 0; i < 3; i++)
+                for(int i = 0; i < 2; i++)
                 {
                     if(int.TryParse(palabras[i], out int x))
                     {
@@ -29,13 +29,42 @@ namespace Repaso11
                         break;
                     }
                 }
-                if (indexEdad == -1) Console.WriteLine("No se encontró una edad");
-                for  
+                if (indexEdad == -1)
+                {
+                    Console.WriteLine("No se encontro una edad");
+                } else
+                {
+                    for(int i = 0; i < 2; i++)
+                    {
+                        if (i != indexEdad && LeerArchivo.esNombre(palabras[i]))
+                        {
+                            indexNombre = i;
+                            break;
+                        }
+                    }
+                    if (indexNombre == -1)
+                    {
+                        Console.WriteLine("No se encontro un nombre");
+                    } else
+                    {
+                        for(int i = 0; i < 3; i++)
+                        {
+                            if(i != indexEdad && i != indexNombre)
+                            {
+                                indexApellido = i;
+                            }
+                        }
+                    }
+                }
+                
             } else
             {
-                Console.WriteLine("La próxima ingresar 3 palabras por favor");
+                Console.WriteLine("Solo 3 palabras, por favor");
             }
 
+            Console.WriteLine("Tu nombre es: " + palabras[indexNombre]);
+            Console.WriteLine("Tu apellido es: " + palabras[indexApellido]);
+            Console.WriteLine("Tu edad es: " + palabras[indexEdad]);
         }
     }
 }

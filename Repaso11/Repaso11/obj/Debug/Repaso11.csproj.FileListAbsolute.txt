@@ -1,0 +1,6 @@
+/Users/fede/Documents/GitHub/Repaso11/Repaso11/Repaso11/bin/Debug/Repaso11.exe
+/Users/fede/Documents/GitHub/Repaso11/Repaso11/Repaso11/bin/Debug/Repaso11.pdb
+/Users/fede/Documents/GitHub/Repaso11/Repaso11/Repaso11/obj/Debug/Repaso11.csprojAssemblyReference.cache
+/Users/fede/Documents/GitHub/Repaso11/Repaso11/Repaso11/obj/Debug/Repaso11.csproj.CoreCompileInputs.cache
+/Users/fede/Documents/GitHub/Repaso11/Repaso11/Repaso11/obj/Debug/Repaso11.exe
+/Users/fede/Documents/GitHub/Repaso11/Repaso11/Repaso11/obj/Debug/Repaso11.pdb
