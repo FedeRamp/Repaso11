@@ -11,7 +11,6 @@ namespace Repaso11
 
         public static bool esNombre(string palabra)
         {
-            palabra += @"\";
             foreach(string linea in File.ReadAllLines("Nombres.txt"))
             {
                 if (palabra == linea)
