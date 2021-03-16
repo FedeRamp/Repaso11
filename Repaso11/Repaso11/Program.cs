@@ -54,6 +54,9 @@ namespace Repaso11
                                 indexApellido = i;
                             }
                         }
+                        Console.WriteLine("Tu nombre es: " + palabras[indexNombre]);
+                        Console.WriteLine("Tu apellido es: " + palabras[indexApellido]);
+                        Console.WriteLine("Tu edad es: " + palabras[indexEdad]);
                     }
                 }
                 
@@ -62,9 +65,7 @@ namespace Repaso11
                 Console.WriteLine("Solo 3 palabras, por favor");
             }
 
-            Console.WriteLine("Tu nombre es: " + palabras[indexNombre]);
-            Console.WriteLine("Tu apellido es: " + palabras[indexApellido]);
-            Console.WriteLine("Tu edad es: " + palabras[indexEdad]);
+            
         }
     }
 }
