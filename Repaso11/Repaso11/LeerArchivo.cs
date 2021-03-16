@@ -17,6 +17,7 @@ namespace Repaso11
                 if (palabra == linea)
                 {
                     return true;
+                    break;
                 }
             }
             return false;
